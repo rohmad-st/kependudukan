@@ -4,7 +4,8 @@
 /bower_components
 npm-debug.log
 .idea/
-
+composer.phar
+composer.lock
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
