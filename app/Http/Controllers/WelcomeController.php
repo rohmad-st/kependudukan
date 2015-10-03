@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+/**
+ * Class WelcomeController
+ *
+ * @package App\Http\Controllers
+ */
 class WelcomeController extends Controller
 {
     /*
@@ -35,6 +40,9 @@ class WelcomeController extends Controller
         return view('welcome');
     }
 
+    /**
+     * @return mixed
+     */
     public function sample()
     {
         $data = ['sample', 'api', 'call', 'with', 'laravel', 'and', 'restangular'];
@@ -42,6 +50,9 @@ class WelcomeController extends Controller
         return response()->api($data);
     }
 
+    /**
+     * @return mixed
+     */
     public function getSample()
     {
         return response()->api('success');
